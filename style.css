@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    border-top: 5px;
+    border-bottom: 5px;
+    background:url("http://cdn.bigbangfish.com/beautiful/beautiful-night-sky/beautiful-night-sky-5.jpg");
+    background-repeat: repeat;
+
+
+  }
+  h1{
+    text-align:center;
+    color:white;
+    font-weight: bold;
+  }
+
+  a{
+    text-align:center;
+    color:white;
+    font-weight: bold;
+  }
+
+
+  strong {
+    text-align:center;
+    color: white;
+
+  }
+
+  h2 {
+    text-align:center;
+    color:white;
+    font-weight: bold;
+  }
+
+  p{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+  }
+
+  img{
+
+    text-align:center;
+    border:5px solid white;
+
+  }
+
+  h3{
+    color:white;
+
+  }
+
+
+
+  }
