@@ -1,0 +1,298 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'open sans', Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+  background-color:#f0efef;
+}
+
+header {
+  background-color: #00204d;
+  color: white;
+  height: 80px;
+}
+
+.main {
+  background-color: #f0efef;
+  width: 630px;
+  float: left;
+  padding-bottom: 75px;
+}
+
+.article1{
+  text-align: center;
+
+}
+
+.article2{
+  text-align: center;
+
+}
+
+.relaxr,.traveled{
+  font-weight: 600;
+  font-size: 40px;
+  color: #001f4b;
+
+}
+
+.Lorem,.ipsum{
+  font-weight: 300;
+  font-size: 24px;
+  color: #7b878a;
+}
+
+
+
+span{
+  font-size: 70px;
+  font-weight: 600;
+  float:left;
+  padding:10px;
+  line-height: 100%;
+}
+
+.lorem:first-letter{
+  font-size: 50px;
+  float:left;
+}
+
+
+
+.readmore,.readmore2{
+  font-weight:600;
+  font-size: 24px;
+  text-align: right;
+  color: #001f4b;
+}
+
+.signupnow{
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #033048;
+    margin: 0 auto;
+    display:block;
+    width: 200px;
+    padding: 15px;
+    color:white;
+    font-weight: 800;
+    text-decoration: none;
+
+
+}
+
+.sign{
+  background-color:#f4f600;
+  padding: 25px;
+
+}
+
+.end{
+  background-color: black;
+  padding: 50px;
+  text-align: center;
+}
+
+.relaxr2{
+  color:yellow;
+  font-size:24px;
+  font-weight: 800;
+  text-align: center;
+  padding: 25px;
+}
+
+.twitter,.facebook{
+  text-align: center;
+
+}
+
+
+
+.sidebar {
+  background-color: #f0efef;
+  float: left;
+
+  width: 330px;
+  margin: 0 auto;
+}
+
+.categories{
+  font-weight: 800;
+  font-size: 32px;
+  color: #001f4b;
+}
+
+.list{
+  font-weight:300;
+  font-size: 24px;
+  color: #001f4b;
+}
+
+.About_Relaxr{
+  font-weight: 800;
+  font-size: 32px;
+  color: #001f4b;
+}
+
+.Proin{
+  font-weight:300;
+  font-size: 22px;
+  color: #001f4b;
+}
+
+.learnmore{
+  font-size: 22px;
+  font-weight: 600;
+  color:#001f4b;
+
+
+}
+
+.twitter{
+  padding: 20px;
+}
+
+.facebook{
+  padding: 20px;
+
+}
+
+.ad{
+  background-color:white;
+  width: 250px;
+  height: 500px;
+  padding: 25px;
+}
+
+.unit{
+  font-weight: 800;
+  font-size: 24px;
+  color: #001f4b;
+  text-align: center;
+}
+
+.copyright{
+  font-size: 600;
+  font-size: 9px;
+  color: white;
+  padding: 30px;
+}
+
+
+footer {
+
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* navbar */
+nav {
+    text-align: right;
+    margin-right: 80px
+}
+
+nav ul {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    /*background: #990000;*/
+    color: #f3f900;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #111;
+}
+/*end navbar*/
+
+.navbar{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.clear{
+  clear:both;
+}
+
+.logo {
+  float: left;
+  display: inline;
+  margin-top: 20px;
+  margin-left: 56px;
+  font-size: 32px;
+  font-weight: 600;
+
+}

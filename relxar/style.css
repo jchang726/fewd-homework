@@ -1,0 +1,192 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     background: url("header.jpg") no-repeat center top rgb(134,141,157);
+      background-size: cover;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+header{
+
+  font-weight:800;
+  font-size: 24px;
+  color: white;
+
+}
+
+.peace{
+
+  font-weight:600;
+  font-size : 24px;
+  text-align: center;
+
+}
+
+
+
+.button{
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #f9e42e;
+  margin: 0 auto;
+  display:block;
+  width: 150px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.second{
+  background-color: #f0efef;
+
+  }
+
+.benefits{
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+.assistant{
+  font-weight: 300;
+  font-size: 13px;
+
+}
+
+li{
+  font-weight: 300;
+  font-size : 13px;
+
+
+}
+
+.third{
+  background:url("testimonial.jpg");
+  padding: 100px;
+
+}
+
+.amanda{
+  width:400px;
+  font-style: italic;
+  font-size: 18px;
+  color:white;
+  margin: 0 auto;
+  text-align: center;
+
+
+
+
+}
+
+.intuit{
+  font-weight: 600px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.four{
+  background-color:yellow;
+  padding:20px;
+}
+
+.signupnow{
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #033048;
+  margin: 0 auto;
+  display:block;
+  width: 150px;
+  padding: 5px;
+  color:white;
+  text-decoration: none;
+
+
+
+
+}
+
+
+.end {
+  background-color:black;
+  color: yellow;
+  text-align: center;
+  font-style: 'extrabold';
+  font-size: 24px;
+  }
+
+footer{
+  background-color:black;
+  color:white;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 600;
+}
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
